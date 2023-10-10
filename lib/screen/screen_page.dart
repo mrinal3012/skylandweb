@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:skylandweb/model/model_page.dart';
+import 'package:skylandweb/screen/about_page.dart';
 import 'package:skylandweb/screen/home_page.dart';
 import 'package:skylandweb/screen/our_services_page.dart';
 import 'package:skylandweb/screen/project_page.dart';
@@ -18,7 +19,7 @@ class _ScreenPageState extends State<ScreenPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(title:
-        Center(child: Text("Skyland Web")),),
+        Center(child: Text("Skyland Web",style: TextStyle(fontSize: 22, color: Colors.blue,fontWeight: FontWeight.w700),)),),
         body: Container(
           height: double.infinity,width:double.infinity,
           child: Column(children: [
@@ -51,7 +52,7 @@ class _ScreenPageState extends State<ScreenPage> {
             ),
             )),
             Expanded(flex: 10, child: Container(height: double.infinity,width: double.infinity,
-              child: value==3?OurServicesPage():value==4?ProjectPage():HomePage(),
+              child:value==2?AboutPage(): value==3?OurServicesPage():value==4?ProjectPage():HomePage(),
             )),
           ],),
         ),

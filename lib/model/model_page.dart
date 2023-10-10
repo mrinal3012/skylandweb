@@ -44,3 +44,14 @@ List<Project> projectList=[
   Project(name: "Digital Marketing",work: "Marketing Analysis",image: "images/digital.jpg"),
   Project(name: "Keyword Research",work: "Keyword Analysis",image: "images/keyword.jpg"),
 ];
+class About{
+  String ? name;
+  String ? details;
+  String ? image;
+  About({this.name,this.details,this.image});
+}
+List<About> aboutList=[
+  About(name: "About Skylandweb Agency And It's Innovative IT Solutions",details: '''Welcome to Skylandweb.com, a cutting-edge IT and software firm that specializes in providing innovative solutions for the digital era. We are a HighTech agency dedicated to delivering top-notch technological services to help businesses thrive in the ever-evolving digital landscape.
+
+At Skylandweb.com, we understand the critical role that technology plays in transforming businesses and empowering them to achieve their goals. With a passionate team of experienced IT professionals, we strive to be at the forefront of the industry, offering comprehensive solutions that cater to the unique needs of each client.''',image: "images/about.png")
+];
