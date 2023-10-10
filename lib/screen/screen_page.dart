@@ -3,6 +3,7 @@ import 'package:skylandweb/model/model_page.dart';
 import 'package:skylandweb/screen/about_page.dart';
 import 'package:skylandweb/screen/home_page.dart';
 import 'package:skylandweb/screen/our_services_page.dart';
+import 'package:skylandweb/screen/out_team_page.dart';
 import 'package:skylandweb/screen/project_page.dart';
 
 class ScreenPage extends StatefulWidget {
@@ -39,10 +40,9 @@ class _ScreenPageState extends State<ScreenPage> {
                           onTap: () {
                             value = headerModelList[index].id;
                             setState(() {
-
                             });
                           },
-                          child: Container(height: double.infinity, child: Center(child: Text("${headerModelList[index].title}",style: TextStyle(color: Colors.black,fontSize: 21),)),)),
+                          child: Container(height: double.infinity, child: Center(child: Text("${headerModelList[index].title}",style: TextStyle(color: Colors.black,fontSize: 21,fontWeight: FontWeight.w900),)),)),
                     ),),
                     Expanded(flex: 1, child: Center(child: Container(height: double.infinity,width: 80, color: headerModelList[index].id==value?Colors.red:Colors.white)))
                   ],),
@@ -52,7 +52,7 @@ class _ScreenPageState extends State<ScreenPage> {
             ),
             )),
             Expanded(flex: 10, child: Container(height: double.infinity,width: double.infinity,
-              child:value==2?AboutPage(): value==3?OurServicesPage():value==4?ProjectPage():HomePage(),
+              child:value==2?AboutPage(): value==3?OurServicesPage():value==4?ProjectPage():value==6?OurTeamPage():HomePage(),
             )),
           ],),
         ),

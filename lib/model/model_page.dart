@@ -55,3 +55,26 @@ List<About> aboutList=[
 
 At Skylandweb.com, we understand the critical role that technology plays in transforming businesses and empowering them to achieve their goals. With a passionate team of experienced IT professionals, we strive to be at the forefront of the industry, offering comprehensive solutions that cater to the unique needs of each client.''',image: "images/about.png")
 ];
+
+class Home{
+  String ? name;
+  String ? details;
+  String ? totaldetails;
+  String ? image;
+  Home({this.name,this.details,this.totaldetails,this.image});
+}
+List<Home> homeList=[
+  Home(name: "Best IT Solutions",details: "Quality Digital Services You Really Need!",totaldetails: "Discover a range of high-quality digital services tailored to meet your needs. Choose us for the digital solutions you truly need to succeed!",image: "images/team5.png"),
+  Home(name: "Best IT Solutions",details: "An Innovative IT Solutions Agency",totaldetails: "Welcome to Skylandweb.com - Your destination for quality digital services that cater to your every need. Experience the difference of our exceptional digital services and unlock the full potential of your business today!",image: "images/team4.jpg")
+];
+
+class Team{
+  String ? image;
+  Team({this.image});
+}
+List<Team> teamList=[
+  Team(image: "images/tanver.png"),
+  Team(image: "images/eliel.png"),
+  Team(image: "images/islam.png"),
+  Team(image: "images/evelyen.png")
+];
