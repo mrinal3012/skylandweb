@@ -64,7 +64,7 @@ class Home{
   Home({this.name,this.details,this.totaldetails,this.image});
 }
 List<Home> homeList=[
-  Home(name: "Best IT Solutions",details: "Quality Digital Services You Really Need!",totaldetails: "Discover a range of high-quality digital services tailored to meet your needs. Choose us for the digital solutions you truly need to succeed!",image: "images/team5.png"),
+  Home(name: "Best IT Solutions",details: "Quality Digital Services You Really Need!",totaldetails: "Discover a range of high-quality digital services tailored to meet your needs. Choose us for the digital solutions you truly need to succeed!",image: "images/team8.jpg"),
   Home(name: "Best IT Solutions",details: "An Innovative IT Solutions Agency",totaldetails: "Welcome to Skylandweb.com - Your destination for quality digital services that cater to your every need. Experience the difference of our exceptional digital services and unlock the full potential of your business today!",image: "images/team4.jpg")
 ];
 
