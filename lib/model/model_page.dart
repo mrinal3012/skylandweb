@@ -78,3 +78,16 @@ List<Team> teamList=[
   Team(image: "images/islam.png"),
   Team(image: "images/evelyen.png")
 ];
+
+class Testimonial{
+  String ? name;
+  String ? title;
+  String ? details;
+  Testimonial({this.name,this.title,this.details});
+}
+List<Testimonial> testimonialList=[
+  Testimonial(name: "Austin",title: "Managing Director Premier Consultant",details: '''ccess external websites or write content on specific websites like "skylandweb.com." However, I can provide you with information, answer questions, or help you draft text that you can then use on a website. How can I assist you further?'''),
+  Testimonial(name: "OLiver Noah",title: "Managing Director , Noah Fashion",details: ''' but I cannot directly access external websites or write content on specific websites like "skylandweb.com." However, I can provide you with information, answer questions, or help you draft text that you can then use on a website. How can I assist you further?'''),
+  Testimonial(name: "Alonzo",title: "Chief Executive officer Span Fabrics",details: '''Iwebsites or write content on specific websites like "skylandweb.com." However, I can provide you with information, answer questions, or help you draft text that you can then use on a website. How can I assist you further?'''),
+  Testimonial(name: "Arizona",title: "Chief Executive Director Span Fabrics",details: '''"skylandweb.com access external websites or I'm sorry, but I cannot directly access external websites or write content on specific websites like "skylandweb.com." However, I can provide you with information, answer questions, or help you draft text that you can then use on a website. How can I assist you further?'''),
+];
