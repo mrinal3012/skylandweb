@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:skylandweb/model/model_page.dart';
 import 'package:skylandweb/screen/about_page.dart';
+import 'package:skylandweb/screen/contact_page.dart';
 import 'package:skylandweb/screen/home_page.dart';
 import 'package:skylandweb/screen/our_services_page.dart';
 import 'package:skylandweb/screen/out_team_page.dart';
@@ -53,7 +54,7 @@ class _ScreenPageState extends State<ScreenPage> {
             ),
             )),
             Expanded(flex: 10, child: Container(height: double.infinity,width: double.infinity,
-              child:value==2?AboutPage(): value==3?OurServicesPage():value==4?ProjectPage():value==6?OurTeamPage():value==7?TestimonialPage():HomePage(),
+              child:value==2?AboutPage(): value==3?OurServicesPage():value==4?ProjectPage():value==6?OurTeamPage():value==7?TestimonialPage():value==8?ContactPage():HomePage(),
             )),
           ],),
         ),
